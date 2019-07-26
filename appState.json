@@ -72,7 +72,12 @@
     "repo": {
       "name": "SigmaSolo-1",
       "url": "https://github.com/sigmavcs/SigmaSolo-1",
-      "branches": []
+      "branches": [
+        {
+          "name": "master",
+          "hash": "59209754da0c7814dd05d3d7b8b080873347255f"
+        }
+      ]
     }
   }
 }
