@@ -1,0 +1,78 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "2cfc6a30-8f5e-4626-beca-a4f3a84ab70e": {
+        "id": "2cfc6a30-8f5e-4626-beca-a4f3a84ab70e",
+        "parent": null,
+        "name": "SigmaSolo-1",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "8f7a2434-b769-45b0-b7ec-5f1fc0fb82a6"
+        ],
+        "isRemovable": false,
+        "filePath": "SigmaSolo-1"
+      },
+      "8f7a2434-b769-45b0-b7ec-5f1fc0fb82a6": {
+        "id": "8f7a2434-b769-45b0-b7ec-5f1fc0fb82a6",
+        "parent": "2cfc6a30-8f5e-4626-beca-a4f3a84ab70e",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "SigmaSolo-1/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "2cfc6a30-8f5e-4626-beca-a4f3a84ab70e",
+    "openFiles": [
+      "8f7a2434-b769-45b0-b7ec-5f1fc0fb82a6"
+    ],
+    "currentFileId": "8f7a2434-b769-45b0-b7ec-5f1fc0fb82a6",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "SigmaSolo-1",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1564129295463
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "SigmaSolo-1",
+      "url": "https://github.com/sigmavcs/SigmaSolo-1",
+      "branches": []
+    }
+  }
+}
